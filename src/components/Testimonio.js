@@ -10,7 +10,7 @@ export function Testimonio() {
       <div className= 'contenedor-texto-testimonio'>
         <h3 className= 'nombre-testimonio'>Emma Bostian in Sweden</h3>
         <h3 className= 'cargo-testimonio'>Software Engineer at Spotify</h3>
-        <p className= 'testo-testimonio'>I've always struggled with learning JavaScript..."</p>
+        <p className= 'testo-testimonio'>I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify."</p>
       </div>
     </div>
   );

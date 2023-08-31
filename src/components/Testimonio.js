@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Testimonio() {
+export function Testimonio() {
   return (
     <div className='contenedor-testimonio'>
       <img 
@@ -16,4 +16,4 @@ function Testimonio() {
   );
 }
 
-export default Testimonio;
+// export default Testimonio;

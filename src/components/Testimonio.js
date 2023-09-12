@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 import '../styles/Testimonio.css'
 
 export function Testimonio(props) {
   return (
     <div className='contenedorTestimonio'>
       <img 
-      className= 'imgTestimonio' 
+      className= 'imgTestimonio'
       src= {require (`../imgs/fcc-${props.imagen}.png`)}
-      alt= 'Foto de Emma'/>
+      alt= {("Foto de " + props.nombre.split(' ')[0])} />
       <div className= 'contenedorTextoTestimonio'>
         <p className= 'nombreTestimonio'>
           <strong>{props.nombre}</strong> in {props.pais}
